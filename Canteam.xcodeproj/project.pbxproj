@@ -12,6 +12,15 @@
 		182B95591D83A97000CDEED1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182B95571D83A97000CDEED1 /* Main.storyboard */; };
 		182B955B1D83A97000CDEED1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182B955A1D83A97000CDEED1 /* Assets.xcassets */; };
 		182B955E1D83A97000CDEED1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182B955C1D83A97000CDEED1 /* LaunchScreen.storyboard */; };
+		18326F4A1D8406CA00073694 /* BusStopMarker.png in Resources */ = {isa = PBXBuildFile; fileRef = 18326F491D8406CA00073694 /* BusStopMarker.png */; };
+		18326F4C1D84079C00073694 /* CanteenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18326F4B1D84079C00073694 /* CanteenViewController.swift */; };
+		18326F501D84107900073694 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18326F4F1D84107900073694 /* Route.swift */; };
+		1839F9431D851AB100BB8140 /* CanteenIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1839F9421D851AB100BB8140 /* CanteenIcon.png */; };
+		1839F9451D851E5E00BB8140 /* CanteenInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839F9441D851E5E00BB8140 /* CanteenInfoView.swift */; };
+		1839F9471D851E6600BB8140 /* CanteenInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1839F9461D851E6600BB8140 /* CanteenInfoView.xib */; };
+		1839F9491D85206F00BB8140 /* DirectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839F9481D85206F00BB8140 /* DirectionViewController.swift */; };
+		18EB0C721D83BA91002489E5 /* HeatMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EB0C711D83BA91002489E5 /* HeatMap.swift */; };
+		E946A178251F96B247DAFBEB /* Pods_Canteam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54912A8948912D2DE3A9C183 /* Pods_Canteam.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,17 @@
 		182B955A1D83A97000CDEED1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		182B955D1D83A97000CDEED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		182B955F1D83A97000CDEED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18326F491D8406CA00073694 /* BusStopMarker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BusStopMarker.png; sourceTree = "<group>"; };
+		18326F4B1D84079C00073694 /* CanteenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CanteenViewController.swift; path = "View controllers/CanteenViewController.swift"; sourceTree = "<group>"; };
+		18326F4F1D84107900073694 /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Route.swift; path = Models/Route.swift; sourceTree = "<group>"; };
+		1839F9421D851AB100BB8140 /* CanteenIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CanteenIcon.png; sourceTree = "<group>"; };
+		1839F9441D851E5E00BB8140 /* CanteenInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CanteenInfoView.swift; path = View/CanteenInfoView.swift; sourceTree = "<group>"; };
+		1839F9461D851E6600BB8140 /* CanteenInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CanteenInfoView.xib; path = View/CanteenInfoView.xib; sourceTree = "<group>"; };
+		1839F9481D85206F00BB8140 /* DirectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DirectionViewController.swift; path = "View controllers/DirectionViewController.swift"; sourceTree = "<group>"; };
+		18EB0C711D83BA91002489E5 /* HeatMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HeatMap.swift; path = Models/HeatMap.swift; sourceTree = "<group>"; };
+		1A2B35C5367281CC1B2E6FE0 /* Pods-Canteam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Canteam.release.xcconfig"; path = "Pods/Target Support Files/Pods-Canteam/Pods-Canteam.release.xcconfig"; sourceTree = "<group>"; };
+		54912A8948912D2DE3A9C183 /* Pods_Canteam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Canteam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9746AE1ECF6D5A18FE9F7632 /* Pods-Canteam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Canteam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Canteam/Pods-Canteam.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E946A178251F96B247DAFBEB /* Pods_Canteam.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +61,8 @@
 			children = (
 				182B95521D83A97000CDEED1 /* Canteam */,
 				182B95511D83A97000CDEED1 /* Products */,
+				3BB1B38A38D53BC98C2E6ED7 /* Pods */,
+				2129264E3FFABEE4C912F5D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +77,39 @@
 		182B95521D83A97000CDEED1 /* Canteam */ = {
 			isa = PBXGroup;
 			children = (
+				18326F4F1D84107900073694 /* Route.swift */,
 				182B95531D83A97000CDEED1 /* AppDelegate.swift */,
 				182B95551D83A97000CDEED1 /* ViewController.swift */,
+				18326F4B1D84079C00073694 /* CanteenViewController.swift */,
+				18EB0C711D83BA91002489E5 /* HeatMap.swift */,
 				182B95571D83A97000CDEED1 /* Main.storyboard */,
+				1839F9481D85206F00BB8140 /* DirectionViewController.swift */,
+				1839F9441D851E5E00BB8140 /* CanteenInfoView.swift */,
+				1839F9461D851E6600BB8140 /* CanteenInfoView.xib */,
 				182B955A1D83A97000CDEED1 /* Assets.xcassets */,
 				182B955C1D83A97000CDEED1 /* LaunchScreen.storyboard */,
 				182B955F1D83A97000CDEED1 /* Info.plist */,
+				18326F491D8406CA00073694 /* BusStopMarker.png */,
+				1839F9421D851AB100BB8140 /* CanteenIcon.png */,
 			);
 			path = Canteam;
+			sourceTree = "<group>";
+		};
+		2129264E3FFABEE4C912F5D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54912A8948912D2DE3A9C183 /* Pods_Canteam.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BB1B38A38D53BC98C2E6ED7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9746AE1ECF6D5A18FE9F7632 /* Pods-Canteam.debug.xcconfig */,
+				1A2B35C5367281CC1B2E6FE0 /* Pods-Canteam.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +119,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 182B95621D83A97000CDEED1 /* Build configuration list for PBXNativeTarget "Canteam" */;
 			buildPhases = (
+				1E3342FF58CD0DBDF237AB23 /* [CP] Check Pods Manifest.lock */,
 				182B954C1D83A97000CDEED1 /* Sources */,
 				182B954D1D83A97000CDEED1 /* Frameworks */,
 				182B954E1D83A97000CDEED1 /* Resources */,
+				ACF3ADC8A96E806A81BF4C81 /* [CP] Embed Pods Frameworks */,
+				3A999005E1D57446F6EB6770 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -91,11 +142,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Carlos Arcenas";
 				TargetAttributes = {
 					182B954F1D83A97000CDEED1 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = AKTPE3FTGW;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -122,13 +175,64 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18326F4A1D8406CA00073694 /* BusStopMarker.png in Resources */,
+				1839F9471D851E6600BB8140 /* CanteenInfoView.xib in Resources */,
 				182B955E1D83A97000CDEED1 /* LaunchScreen.storyboard in Resources */,
 				182B955B1D83A97000CDEED1 /* Assets.xcassets in Resources */,
 				182B95591D83A97000CDEED1 /* Main.storyboard in Resources */,
+				1839F9431D851AB100BB8140 /* CanteenIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E3342FF58CD0DBDF237AB23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3A999005E1D57446F6EB6770 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Canteam/Pods-Canteam-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACF3ADC8A96E806A81BF4C81 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Canteam/Pods-Canteam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		182B954C1D83A97000CDEED1 /* Sources */ = {
@@ -136,7 +240,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				182B95561D83A97000CDEED1 /* ViewController.swift in Sources */,
+				1839F9451D851E5E00BB8140 /* CanteenInfoView.swift in Sources */,
 				182B95541D83A97000CDEED1 /* AppDelegate.swift in Sources */,
+				18EB0C721D83BA91002489E5 /* HeatMap.swift in Sources */,
+				18326F501D84107900073694 /* Route.swift in Sources */,
+				18326F4C1D84079C00073694 /* CanteenViewController.swift in Sources */,
+				1839F9491D85206F00BB8140 /* DirectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,8 +285,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -221,8 +332,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -241,29 +354,38 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		182B95631D83A97000CDEED1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9746AE1ECF6D5A18FE9F7632 /* Pods-Canteam.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Canteam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.carlosarcenas.Canteam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		182B95641D83A97000CDEED1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A2B35C5367281CC1B2E6FE0 /* Pods-Canteam.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Canteam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.carlosarcenas.Canteam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -286,6 +408,7 @@
 				182B95641D83A97000CDEED1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

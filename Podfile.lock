@@ -1,0 +1,43 @@
+PODS:
+  - Alamofire (4.0.0-beta.2)
+  - Colours (5.13.0):
+    - Colours/ObjC (= 5.13.0)
+  - Colours/ObjC (5.13.0)
+  - Gloss (0.7.4)
+  - GoogleMaps (2.0.1):
+    - GoogleMaps/Maps (= 2.0.1)
+  - GoogleMaps/Base (2.0.1)
+  - GoogleMaps/Maps (2.0.1):
+    - GoogleMaps/Base (= 2.0.1)
+
+DEPENDENCIES:
+  - Alamofire (from `https://github.com/Alamofire/Alamofire.git`, branch `swift3`)
+  - Colours
+  - Gloss (from `https://github.com/hkellaway/Gloss.git`, branch `swift_3.0`)
+  - GoogleMaps (~> 2.0)
+
+EXTERNAL SOURCES:
+  Alamofire:
+    :branch: swift3
+    :git: https://github.com/Alamofire/Alamofire.git
+  Gloss:
+    :branch: swift_3.0
+    :git: https://github.com/hkellaway/Gloss.git
+
+CHECKOUT OPTIONS:
+  Alamofire:
+    :commit: 680690beaa7abf9578487688de4d24d038f679b5
+    :git: https://github.com/Alamofire/Alamofire.git
+  Gloss:
+    :commit: 145c78888ccca678bf146b5b0b58882016a4d9aa
+    :git: https://github.com/hkellaway/Gloss.git
+
+SPEC CHECKSUMS:
+  Alamofire: 7f837be535fe424db2b87d9117f13836939719ca
+  Colours: f24220c38f13deac88612667e9b4a7fb96b871d4
+  Gloss: d86009ef4d12c221d889c4e3f9e1eb547ee6251d
+  GoogleMaps: f09da64fc987c1aa29394567c3cab5a3df83c402
+
+PODFILE CHECKSUM: 945fead2730553e796751781d0942d22ef5dbb30
+
+COCOAPODS: 1.0.1
